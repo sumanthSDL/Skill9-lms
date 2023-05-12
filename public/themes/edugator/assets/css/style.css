@@ -1559,7 +1559,7 @@ footer a{
     color: #ffffff;
 }
 footer a:hover{
-    color: #36b5d8;
+    color: #f8cd00;
 }
 footer h4{
     font-size: 18px;
@@ -1954,4 +1954,21 @@ User Profile Page
     .modal-alert {
         max-width: 400px;
     }
+}
+
+
+/**********************************************************************
+* Added Css
+***********************************************************************/
+
+.add-to-cart-btn {
+    display: none;
+}
+
+.price-html-wrap {
+    display: none;
+}
+
+.course-card-ratings {
+    display: none;
 }
