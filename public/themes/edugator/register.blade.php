@@ -71,6 +71,7 @@
                         <div class="col-md-6">
                             <label class="mr-3"><input type="radio" name="user_as" value="student" {{old('user_as') ? (old('user_as') == 'student') ? 'checked' : '' : 'checked' }}> {{__t('student')}} </label>
                             <label><input type="radio" name="user_as" value="instructor" {{old('user_as') == 'instructor' ? 'checked' : ''}} > {{__t('instructor')}} </label>
+                            <label><input type="radio" name="user_as" value="Alumini" {{old('user_as') == 'instructor' ? 'checked' : ''}} > {{__t('Alumini')}} </label>
                         </div>
                     </div>
 

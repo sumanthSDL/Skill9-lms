@@ -1542,7 +1542,7 @@ Footer Section
 footer{
     font-size: 14px;
     position: relative;
-    color: #ffffff;
+    color: #000000;
     background: #ffffff url(../../images/footerg.svg) no-repeat scroll center center / cover ;
 }
 footer::before {
@@ -1556,10 +1556,10 @@ footer::before {
     width: 100%;
 }
 footer a{
-    color: #ffffff;
+    color: #020202;
 }
 footer a:hover{
-    color: #f8cd00;
+    color: #36b5d8;
 }
 footer h4{
     font-size: 18px;
