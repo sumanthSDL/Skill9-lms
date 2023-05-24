@@ -63,8 +63,8 @@
                 <!-- /.nav-second-level -->
             </li>
 
-            <li> <a href="{{route('payments')}}"><i class="la la-file-invoice-dollar"></i> {{__a('payments')}}</a>  </li>
-            <li> <a href="{{route('withdraws')}}"><i class="la la-wallet"></i> {{__a('withdraws')}}</a>  </li>
+           <!-- <li> <a href="{{route('payments')}}"><i class="la la-file-invoice-dollar"></i> {{__a('payments')}}</a>  </li>
+            <li> <a href="{{route('withdraws')}}"><i class="la la-wallet"></i> {{__a('withdraws')}}</a>  </li> -->
 
             <li> <a href="{{ route('users') }}"><i class="la la-users"></i> {{__a('users')}}</a>  </li>
 

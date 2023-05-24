@@ -53,7 +53,7 @@
 
     </div>
 
-    @if($chartData)
+  <!--  @if($chartData)
         <div class="p-4 bg-white">
             <h4 class="mb-4">My Earning for for the month ({{date('M')}})</h4>
 
@@ -64,7 +64,7 @@
     @if($purchases->count() > 0)
         <h4 class="my-4"> {{sprintf(__t('my_last_purchases'), $purchases->count())}} </h4>
 
-        <table class="table table-striped table-bordered">
+        {{-- <table class="table table-striped table-bordered">
 
             <tr>
                 <th>#</th>
@@ -106,7 +106,7 @@
                     </td>
                 </tr>
             @endforeach
-        </table>
+        </table> --}}
     @endif
 
 @endsection

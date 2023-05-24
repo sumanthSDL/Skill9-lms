@@ -8,7 +8,7 @@
     <link rel="shortcut icon" href="{{theme_url('favicon.png')}}"/>
 
     <!-- Teachify Version -->
-    <meta name="generator" content="Teachify LMS v.{{config('app.version')}}" />
+    <meta name="generator" content="SKILL9 LMS " />
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -69,7 +69,7 @@
             </li>
         </ul>
 
-        <ul class="navbar-nav dashboard-user-nav ml-auto">
+       < <ul class="navbar-nav dashboard-user-nav ml-auto">
             <li class="nav-item dropdown">
                 <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle nav-user-profile">
                     {!! $auth_user->get_photo !!}

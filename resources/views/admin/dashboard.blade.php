@@ -88,7 +88,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-3 col-md-6">
+        {{-- <div class="col-lg-3 col-md-6">
             <div class="dashboard-card mb-3 d-flex border p-3 bg-light">
                 <div class="card-icon mr-2">
                     <span><i class="la la-clipboard-list"></i> </span>
@@ -99,7 +99,7 @@
                     <div>Quiz</div>
                 </div>
             </div>
-        </div>
+        </div> --}}
 
         <div class="col-lg-3 col-md-6">
             <div class="dashboard-card mb-3 d-flex border p-3 bg-light">
@@ -153,7 +153,7 @@
             </div>
         </div>
 
-        <div class="col-lg-3 col-md-6">
+        {{-- <div class="col-lg-3 col-md-6">
             <div class="dashboard-card mb-3 d-flex border p-3 bg-light">
                 <div class="card-icon mr-2">
                     <span><i class="la la-money"></i> </span>
@@ -164,10 +164,10 @@
                     <div>Payment Total</div>
                 </div>
             </div>
-        </div>
+        </div> --}}
 
 
-        <div class="col-lg-3 col-md-6">
+        {{-- <div class="col-lg-3 col-md-6">
             <div class="dashboard-card mb-3 d-flex border p-3 bg-light">
                 <div class="card-icon mr-2">
                     <span><i class="la la-sign-out"></i> </span>
@@ -178,12 +178,12 @@
                     <div>Withdraws Total</div>
                 </div>
             </div>
-        </div>
+        </div> --}}
 
     </div>
 
 
-    <div class="p-4 bg-white">
+   <!-- <div class="p-4 bg-white">
         <h4 class="mb-4">Payments graph for the month of <strong>{{date('M')}}</strong> </h4>
 
         <canvas id="ChartArea"></canvas>
@@ -245,7 +245,7 @@
 
     @else
         {!! no_data() !!}
-    @endif
+    @endif-->
 
 
 @endsection
